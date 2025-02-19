@@ -1,0 +1,332 @@
+@media(max-width:1600px){
+    .container{
+        padding: 0 20px;
+    }
+    .aside__content{
+        display: none;
+    }
+    .header {
+        padding-left: 0;
+    }
+    .banner{
+        padding-left: 0;
+    }
+    .menu{
+        padding-left: 0;
+    }
+}
+
+@media(max-width:1490px){
+    .intelligence {
+        justify-content: center;
+    }
+
+    .intelligence__description {
+        max-width: 550px;
+    }
+}
+@media(max-width:1246px){
+    .work{
+        align-items: center;
+    }
+    .work__description__btn{
+        margin-top: 20px;
+    }
+    .work__description__text{
+        font-size: 100%;
+        max-width: 400px;
+    }
+    .work__description__title {
+        font-size: 220%;
+        padding-bottom: 20px;
+        max-width: 450px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    .header_row{
+        gap: 50px;
+    }
+    .header__btn {
+        width: 50%;
+        height: 80px;
+        display: flex;
+        border-radius: 20px;
+        border: none;
+        font-weight: 500;
+        font-size: 100%;
+        line-height: 162%;
+        letter-spacing: 0.03em;
+        color: #fff;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .intelligence__images {
+        max-width: 690px;
+    }
+    .intelligence__description {
+        max-width: 420px;
+    }
+    .intelligence__title{
+        padding-bottom: 20px;
+        font-size: 32px;
+    }
+    .intelligence__text {
+        font-size: 14px;
+    }
+    .intelligence__btn{
+        margin-top: 5px;
+    }
+    .intelligence__text_bold{
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+    .intelligence {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .intelligence__btn {
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+}
+@media(max-width:1120px){
+    .int_img1 {
+        width: 204px;
+        height: 226px;
+    }
+    .int_img2 {
+        width: 432px;
+        height: 146px;
+    }
+    .intelligence__image__title {
+        padding-left: 26px;
+        padding-bottom: 40px;
+        width: 204px;
+        height: 226px;
+        font-size: 24px;
+    }
+    .intelligence__description {
+        max-width: 550px;
+    }
+    .menu {
+        gap: 30px;
+        align-items: center;
+    }
+}
+@media(max-width:1045px){
+    .intelligence{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .int_img2 {
+        width: 204px;
+        height: 226px;
+    }
+    .intelligence__description {
+        max-width: 662px;
+    }
+    .work_img1{
+        width: 204px;
+        height: 226px;
+    }
+    .work_img2 {
+        width: 432px;
+        height: 146px;
+    }
+    .work__image__title {
+        padding-left: 26px;
+        padding-bottom: 40px;
+        width: 204px;
+        height: 226px;
+        font-size: 24px;
+    }
+    .work__images {
+        max-width: 460px;
+    }
+    .work__description__title {
+        font-size: 32px;
+    }
+    .work__description__text{
+        font-size: 14px;
+    }
+    .work__description__btn{
+        padding: 14px 35px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .work__card {
+        width: 100%;
+        height: 350px;
+    }
+    .work__card__name{
+        padding-bottom: 25px;
+    }
+    .startup__cards {
+        gap: 20px;
+    }
+  .footer__row {
+    justify-content: center;
+}
+}
+@media(max-width:980px){
+    .menu{
+        display: none;
+    }
+}
+@media(max-width:830px){
+    .work{
+        flex-direction: column;
+    }
+    .work_img2{
+        width: 204px;
+        height: 226px;
+    }
+    .work__images {
+        max-width: 670px;
+    }
+    .work__description__text {
+        max-width: 670px;
+    }
+    .work__description__title {
+        padding-top: 20px;
+        font-size: 220%;
+        padding-bottom: 20px;
+        max-width: 670px;
+    }
+    .banner__title {
+        font-size: 42px;
+        padding-bottom: 43px;
+    }
+    .banner__text{
+        font-size: 18px;
+    }
+    .banner__btn{
+        margin-top: 57px;
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+}
+@media(max-width:710px){
+    .footer__row{
+        align-items: baseline;
+    }
+    .footer__text {
+        max-width: 100%;
+    }
+    .footer__contact{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .footer__navigations {
+        gap: 20px;
+        width: 100%;
+    }
+    .footer__navigation{
+        width: 100%;
+    }
+    .work_img1{
+        display: none;
+    }
+    .work_img2{
+        width: 320px;
+        height: 227px;
+    }
+    .int_img1{
+        display: none;
+    }
+    .int_img2{
+        width: 320px;
+        height: 227px;
+    }
+    .startup__card {
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .work__image__title{
+        display: none;
+    }
+    .work_img2 {
+        width: 100%;
+    }
+    .intelligence__image__title {
+        display: none;
+    }
+    .int_img2{
+        width: 100%;
+    }
+    .work__card__name{
+        gap: 20px;
+    }
+    .work__card__text {
+        font-size: 16px;
+    }
+    .work__card{
+        padding: 30px 35px;
+        height: 400px;
+    }
+    .advantages__card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantages__card__description{
+        align-items: center;
+    }
+    .advantages__card__text{
+        text-align: center;
+    }
+    .advantages__btns {
+        padding-top: 70px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantages__card__title{
+        text-align: center;
+    }
+    .advantages__title{
+        font-size: 36px;
+    }
+    .statistics{
+        gap: 60px;
+    }
+    .statistics__cards {
+        gap: 30px;
+        padding-bottom: 80px;
+    }
+    .statistics__title {
+        padding-top: 80px;
+        font-size: 36px;
+    }
+    .statistics__card__number{
+        font-size: 52px;
+    }
+    .back__statistics {
+        background-image: url(../image/back_static.png);
+        background-position: center;
+        background-size: 500%;
+        
+    }
+}
+@media(max-width:500px){
+    .banner__title {
+        font-size: 34px;
+        padding-bottom: 32px;
+        padding-top: 40px;
+    }
+    .banner__btn{
+        margin-bottom: 80px;
+    }
+    .banner__text {
+        font-size: 16px;
+    }
+    .banner__background {
+        height: 720px;
+    }
+    .footer__row{
+        padding-bottom: 40px;
+    }
+        
+}
