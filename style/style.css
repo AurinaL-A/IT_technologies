@@ -233,6 +233,74 @@ a{
     line-height: 150%;
     color: #000;
 }
+.investment{
+    display: flex;
+    align-items: center;
+    
+}
+.investment__mains{
+    display: flex;
+    align-items: center;
+}
+.investman__main{
+    padding-left: 112px;
+    display: flex;
+    flex-direction: column;
+}
+.investman__main__title{
+    padding-bottom: 55px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 129%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    max-width: 401px;
+}
+.investman__btn{
+    width: 320px;
+    box-sizing: border-box;
+}
+.investman__cards{
+    padding-right: 10px;
+    padding-left: 147px;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+.investman__card{
+    display: flex;
+    gap: 38px;
+}
+.investman__card__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.investman__card__text{
+    max-width: 468px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
+.investman__btn{
+    padding: 16px 46px;
+    margin-top: 68px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background: #194dd2;
+    border: none;
+    border-radius: 36px;
+}
+.back__investment{
+    background-color: #1a1a1a;
+    margin-bottom: 120px;
+}
 .advantages{
     padding-bottom: 114px;
 }

@@ -24,6 +24,24 @@
     .intelligence__description {
         max-width: 550px;
     }
+    .investman__cards {
+        padding-left: 100px;
+    }
+    .investman__main {
+        padding-left: 80px;
+    }
+    .investman__img{
+        width: 380px;
+    }
+}
+@media(max-width:1360px){
+    .investman__img{
+        display: none;
+    }
+    .investman__cards {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
 @media(max-width:1246px){
     .work{
@@ -117,6 +135,13 @@
     }
 }
 @media(max-width:1045px){
+    .investment {
+        display: flex;
+        align-items: center;
+    }
+    .investman__main{
+        padding-left: 70px;
+    }
     .intelligence{
         flex-wrap: wrap;
         gap: 30px;
@@ -174,6 +199,25 @@
 @media(max-width:980px){
     .menu{
         display: none;
+    }
+    .investment{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .investman__main{
+        padding-left: 20px;
+    }
+    .investman__main__title {
+        max-width: 600px;
+    }
+    .investman__cards {
+        padding-left: 20px;
+    }
+    .investman__main__title{
+        padding-top: 100px;
+    }
+    .investman__card__text {
+        max-width: 750px;
     }
 }
 @media(max-width:830px){
@@ -254,6 +298,14 @@
     }
     .intelligence__image__title {
         display: none;
+    }
+    .investman__main__title{
+        font-size: 32px;
+    }
+    .investman__btn {
+        width: 250px;
+        padding: 16px 20px;
+        font-size: 16px;
     }
     .int_img2{
         width: 100%;
