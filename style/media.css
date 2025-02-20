@@ -216,6 +216,9 @@
     .menu{
         display: none;
     }
+    .header__btn{
+        display: none;
+    }
     .investment{
         flex-direction: column;
         align-items: flex-start;
@@ -383,6 +386,13 @@
         background-size: 500%;
         
     }
+    .investman__main__title{
+        text-align: center;
+    }
+    .investman__main{
+        align-items: center;
+    }
+   
 }
 @media(max-width:500px){
     .questions__title{
