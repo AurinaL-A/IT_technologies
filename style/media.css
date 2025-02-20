@@ -133,6 +133,22 @@
         gap: 30px;
         align-items: center;
     }
+    .questions__info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .questions__card{
+        width: 100%;
+    }
+    .questions__cards{
+        max-width: 100%;
+    }
+    .questions__card__text{
+        width: 100%;
+    }
+    .questions__description{
+        width: 100%;
+    }
 }
 @media(max-width:1045px){
     .investment {
@@ -290,6 +306,12 @@
     }
 }
 @media(max-width:600px){
+    .questions__description{
+        padding: 40px 42px;
+    }
+    .questions__card__text{
+        font-size: 16px;
+    }
     .work__image__title{
         display: none;
     }
@@ -363,6 +385,18 @@
     }
 }
 @media(max-width:500px){
+    .questions__title{
+        font-size: 36px;
+    }
+    .questions__desc__title{
+        font-size: 26px;
+    }
+    .questions__desc__text{
+        font-size: 16px;
+    }
+    .questions__card{
+        padding: 15px 20px;
+    }
     .banner__title {
         font-size: 34px;
         padding-bottom: 32px;
@@ -381,4 +415,15 @@
         padding-bottom: 40px;
     }
         
+}
+@media(max-width:400px){
+    .questions__desc__title{
+        font-size: 20px;
+    }
+    .questions__desc__text{
+        font-size: 14px;
+    }
+    .questions__card__text{
+        font-size: 14px;
+    }
 }
