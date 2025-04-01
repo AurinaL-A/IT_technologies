@@ -213,7 +213,7 @@
 }
 }
 @media(max-width:980px){
-    .menu{
+    .header{
         display: none;
     }
     .header__btn{

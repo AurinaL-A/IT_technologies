@@ -122,7 +122,8 @@ a{
     color: #fff;
     max-width: 792px;
 }
-.banner__btn{
+.banner__btn{ 
+    cursor: pointer;
     margin-top: 67px;
     margin-bottom: 140px;
     padding:15px 35px ;
@@ -134,7 +135,12 @@ a{
     font-size: 18px;
     line-height: 162%;
     letter-spacing: 0.03em;
-    color: #fff;
+    transition: 0.7s;
+}
+.banner__btn:hover{
+    transform: scale(1.04);
+    background: #194dd2;
+    border: none;
 }
 .work{
     padding-top: 80px;
@@ -182,6 +188,7 @@ a{
     opacity: 0.7;
 }
 .work__description__btn{
+    cursor: pointer;
     margin-top: 66px;
     padding: 16px 40px;
     background: #0a51cb;
@@ -193,6 +200,13 @@ a{
     letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
+    transition: 0.7s;
+}
+.work__description__btn:hover{
+    transform: scale(1.04);
+    background-color: transparent;
+    border: 2px solid #0a51cb;
+    color: #0a51cb;
 }
 .work__card__name{
     display: flex;
@@ -257,8 +271,16 @@ a{
     max-width: 401px;
 }
 .investman__btn{
+    cursor: pointer;
     width: 320px;
     box-sizing: border-box;
+    transition: 0.7s;
+}
+.investman__btn:hover{
+    transform: scale(1.04);
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
 }
 .investman__cards{
     padding-right: 10px;
@@ -336,6 +358,7 @@ a{
     height: 2px;    
 }
 .advantages__btn__reg{
+    cursor: pointer;
     border-radius: 36px;
     width: 251px;
     height: 60px;
@@ -347,8 +370,16 @@ a{
     color: #fff;
     text-align: center;
     border: none;
+    transition: 0.7s;
+}
+.advantages__btn__reg:hover{
+    transform: scale(1.04);
+    background-color: transparent;
+    border: 2px solid #0a51cb;
+    color: #0a51cb;
 }
 .advantages__btn__cal{
+    cursor: pointer;
     border: 2px solid #002c54;
     border-radius: 36px;
     width: 300px;
@@ -360,7 +391,14 @@ a{
     letter-spacing: 0.03em;
     color: #000;
     text-align: center;
+    transition: 0.7s;
 
+}
+.advantages__btn__cal:hover{
+    transform: scale(1.04);
+    background-color: transparent;
+    border: 2px solid #0a51cb;
+    color: #0a51cb;
 }
 .advantages__btns{
     padding-top: 97px;  
@@ -536,6 +574,7 @@ a{
     max-width: 786px;
 }
 .intelligence__btn{
+    cursor: pointer;
     padding: 16px 34px;
     font-weight: 500;
     font-size: 18px;
@@ -547,6 +586,13 @@ a{
     border-radius: 36px;
     background: #0a51cb;
     margin-top: 27px;
+    transition: 0.7s;
+}
+.intelligence__btn:hover{
+    transform: scale(1.04);
+    background-color: transparent;
+    border: 2px solid #0a51cb;
+    color: #0a51cb;
 }
 .intelligence__title{
     padding-bottom: 42px;
